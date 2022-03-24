@@ -1,0 +1,158 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* FONT */
+body {
+	color: rgb(255, 0, 200);
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* VARIABLES */
+body {
+	--temp-color: rgb(149, 233, 146);
+}
+
+nav li {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.menuquidescend {
+	background-color: grey;
+	text-align: center;
+}
+
+section {
+	text-align: center;
+}
+
+/* NORD */
+.nord {
+	height: 25px;
+	width: 50px;
+	transform: translate(930px, -700px);
+}
+
+.nord .haut {
+	transform: translate(10px, -40px);
+	background-color: var(--temp-color);
+}
+
+.nord .bas {
+	transform: translate(40px, 120px);
+	background-color: var(--temp-color);
+}
+
+.nord .gauche {
+	transform: translate(-40px, 0px);
+	background-color: var(--temp-color);
+}
+
+.nord .droite {
+	transform: translate(70px, -60px);
+	background-color: var(--temp-color);
+}
+
+/* SUD */
+.sud {
+	height: 25px;
+	width: 50px;
+	transform: translate(930px, -250px);
+}
+
+.sud .haut {
+	transform: translate(30px, -40px);
+	background-color: var(--temp-color);
+}
+
+.sud .bas {
+	transform: translate(0px, 70px);
+	background-color: var(--temp-color);
+}
+
+.sud .gauche {
+	transform: translate(-120px, -40px);
+	background-color: var(--temp-color);
+}
+
+.sud .droite {
+	transform: translate(170px, -70px);
+	background-color: var(--temp-color);
+}
+
+/* OUEST */
+.ouest {
+	height: 25px;
+	width: 50px;
+	transform: translate(850px, -500px);
+}
+
+.ouest .haut {
+	transform: translate(-70px, -100px);
+	background-color: var(--temp-color);
+}
+
+.ouest .bas {
+	transform: translate(0px, 70px);
+	background-color: var(--temp-color);
+}
+
+.ouest .gauche {
+	transform: translate(-100px, -60px);
+	background-color: var(--temp-color);
+}
+
+.ouest .droite {
+	transform: translate(40px, -120px);
+	background-color: var(--temp-color);
+}
+
+/* EST */
+.est {
+	height: 25px;
+	width: 50px;
+	transform: translate(1200px, -550px);
+}
+
+.est .haut {
+	transform: translate(-80px, -130px);
+	background-color: var(--temp-color);
+}
+
+.est .bas {
+	transform: translate(-100px, 140px);
+	background-color: var(--temp-color);
+}
+
+.est .gauche {
+	transform: translate(-200px, 0px);
+	background-color: var(--temp-color);
+}
+
+.est .droite {
+	transform: translate(-70px, -120px);
+	background-color: var(--temp-color);
+}
+
+/* FOOTER */
+footer {
+	height: 150px;
+	background-color: rgb(224, 154, 96);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer img {
+	height: 80px;
+	width: 80px;
+}
+
+footer p {
+	margin-right: 50px;
+}

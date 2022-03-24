@@ -1,0 +1,59 @@
+Créer un dossier de travail (quête 7)
+Dans ce dossier ==>
+
+=> Créer un dossier "img"
+=> Créer un dossier "includes"
+   Dans le dossier includes créé => head.php / header.php / footer.php
+
+==> Créer un index.php
+    - Télecharge et intégre une image représentant la carte de la France 
+
+==> Créer un menu de nav(header) => lundi,mardi,mecredi,jeudi,vendredi,samedi,dimanche
+    - Lors d'un click sur une jour de la semaine, les températures doivent s'afficher (le tout en restant sur index.php)
+        ===> Les températures doivent s'afficher à l'endroit correspondant de l'image carte de la France <===
+        (nord en haut en haut de la carte,sud en bas de la carte,est en à droite de la carte et ouest à gauche de la carte)
+
+Lundi: =>
+    NORD: 10°,12°,10°,15°
+    SUD:20°,22°,20°,25°
+    OUEST:12°,13°,14°,15°
+    EST:11°,14°,14°,14°
+
+Mardi: =>
+    NORD: 11°,11°,14°,13°
+    SUD:20°,23°,22°,22°
+    OUEST:14°,13°,14°,14°
+    EST:12°,13°,10°,15°
+
+Mercredi =>
+    NORD: 11°,15°,14°,16°
+    SUD:18°,18°,19°,20°
+    OUEST:14°,16°,16°,15°
+    EST:17°,16°,16°,18°
+
+Jeudi: =>
+    NORD: 18°,17°,17°,18°
+    SUD:21°,22°,22°,23°
+    OUEST:17°,19°,20°,18°
+    EST:16°,16°,16°,15°
+
+Vendredi: =>
+    NORD: 14°,14°,14°,15°
+    SUD:19°,18°,18°,19°
+    OUEST:14°,13°,14°,10°
+    EST:10°,12°,10°,15°
+
+Samedi: =>
+    NORD: 14°,12°,14°,14°
+    SUD:18°,17°,17°,17°
+    OUEST:13°,11°,13°,13°
+    EST:10°,12°,10°,15°
+
+Dimanche: =>
+    NORD: 12°,12°,12°,12°
+    SUD:18°,18°,17°,17°
+    OUEST:14°,14°,14°,15°
+    EST:10°,14°,10°,14°
+
+=> footer: copyright (nom,prenom)
+    Intégre une img linkedin qui redirige sur ton profil lors du clic
